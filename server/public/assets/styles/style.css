@@ -1,0 +1,24 @@
+#inputForm {
+    margin: 5px auto 5px auto;
+    width: 175px;
+    height: 45px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid slategrey;
+}
+
+#operatorButtons {
+    width: 215px;
+}
+
+#answer #xInput #yInput {
+    box-shadow: 2px 1px 5px black;
+    width: 175px;
+}
+
+
+#equal {
+    font-size: 75px;
+    height: 150px;
+    color: red;
+}

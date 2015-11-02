@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>Week 3 Weekend Calculator</title>
+        <link rel="stylesheet" href="/vendors/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/styles/style.css">
+
+        <script type="text/javascript" src="/vendors/jquery.min.js"></script>
+        <script type="text/javascript" src="/assets/scripts/app.js"></script>
+    </head>
+
+    <body>
+        <div id="calculator">
+            <form id="inputForm">
+                <label for="xInput">Input your first number: </label>
+                <input type="text" id="xInput" name="xInput" placeholder="Enter number here">
+
+                <label for="yInput">Input your second number: </label>
+                <input type="text" id="yInput" name="yInput" placeholder="Enter number here">
+
+            <div id="operatorButtons">
+                <button id='plus' class="btn btn-info">+</button>
+                <button id='minus' class="btn btn-info">−</button>
+                <button id='times' class="btn btn-info">*</button>
+                <button id='divide' class="btn btn-info">÷</button>
+            </div>
+
+            <div id="equal">
+                <button id='equalButton' class="btn btn-info">=</button>
+            </div>
+
+            <div id="answer">Answer:
+            </div>
+
+            <div id="clear">
+                <button id='clearButton' class="btn btn-info">Clear</button>
+            </div>
+
+            </form>
+        </div>
+    </body>
+</html>
